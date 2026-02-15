@@ -18,9 +18,10 @@ export default function App() {
   return ( 
     <>
     <header>
-      <h1>Actor List</h1>
+      <h1>Hollywood Most Loved</h1>
     </header>
     <div className='container'>
+      <h2>Actors List</h2>
       <div className='actors-list row row-cols-1 g-3'>
         {actors.map ((actor) => (
           <div key={actor.id} className='col border border-secondary rounded p-0'>
@@ -37,7 +38,7 @@ export default function App() {
           </div>
             </div>
         ))}
-
+        <h2>Actresses List</h2>
         {actresses.map ((actress) => (
           <div key={actress.id} className='col border border-secondary rounded p-0'>
             <div className='actress-card d-flex'>
