@@ -21,23 +21,27 @@ export default function App() {
       <h1>Hollywood Most Loved</h1>
     </header>
     <div className='container'>
-      <h2>Actors List</h2>
-      <div className='actors-list row row-cols-1 g-3'>
+      <div className='actors-list row row-cols-1 g-2 my-2'>
+        <h2>Actors List</h2>
         {actors.map ((actor) => (
           <div key={actor.id} className='col border border-secondary rounded p-0'>
             <div className='actor-card d-flex'>
-            <img src={actor.image} alt={actor.name} title={actor.name}/>
+            <img src={actor.image} alt={actor.name} title={actor.name}  onError={(e) => {
+                 e.target.src = "https://placehold.co/300x400?text=No+Image&bg=e9ecef&fg=6c757d";
+  }}/>
             <div className='actor-card-info text-start p-2'>
               <h2 className='h3 mb-3'>{actor.name}</h2>
               <p className='m-0'><strong>Year of birth:</strong> {actor.birth_year}</p>
               <p className='m-0'><strong>Nationality:</strong> {actor.nationality}</p>
-              <p className='m-0'><strong>Awards:</strong> {actor.awards}</p>
+              <p className='m-0'><strong>Awards:</strong> {actor.awards.join(", ")}</p>
               <p className='m-0'><strong>Famous Appearances: </strong> <i>{actor.known_for.join(", ")}</i></p>
               <p className='mt-3'>{actor.biography}</p>
             </div>
           </div>
             </div>
         ))}
+      </div>
+      <div className='actresses-list row row-cols-1 g-2 my-2'>
         <h2>Actresses List</h2>
         {actresses.map ((actress) => (
           <div key={actress.id} className='col border border-secondary rounded p-0'>

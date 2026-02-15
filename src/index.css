@@ -54,15 +54,12 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
-.actor-card img, 
-.actress-card img {
-  width: 200px;
+img {
   height: 100%;
+  width: 200px;
   object-fit: cover;
   aspect-ratio: 9/16;
 }
-
-
 
 @media (prefers-color-scheme: light) {
   :root {
