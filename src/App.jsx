@@ -26,9 +26,8 @@ export default function App() {
         {actors.map ((actor) => (
           <div key={actor.id} className='col border border-secondary rounded p-0'>
             <div className='actor-card d-flex'>
-            <img src={actor.image} alt={actor.name} title={actor.name}  onError={(e) => {
-                 e.target.src = "https://placehold.co/300x400?text=No+Image&bg=e9ecef&fg=6c757d";
-  }}/>
+            <img src={actor.image} alt={actor.name} title={actor.name}   onError={(e) => {
+                 e.target.src = "https://via.placeholder.com/150x220?text=No+Image"}}/>
             <div className='actor-card-info text-start p-2'>
               <h2 className='h3 mb-3'>{actor.name}</h2>
               <p className='m-0'><strong>Year of birth:</strong> {actor.birth_year}</p>
@@ -52,7 +51,8 @@ export default function App() {
               <p className='m-0'><strong>Year of birth:</strong> {actress.birth_year}</p>
               <p className='m-0'><strong>Nationality:</strong> {actress.nationality}</p>
               <p className='m-0'><strong>Awards:</strong> {actress.awards}</p>
-              <p className='m-0'><strong>Famous Appearances: </strong> <i>{actress.known_for}</i></p>
+              <p className='m-0'><strong>Famous Appearances: </strong> <i>{actress.most_famous_movies.join(", ")}</i></p>
+              
               <p className='mt-3'>{actress.biography}</p>
             </div>
           </div>
