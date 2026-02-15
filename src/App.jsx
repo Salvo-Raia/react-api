@@ -11,11 +11,23 @@ export default function App() {
   
   return ( 
     <div>
-      <ul>
+      <div className='row row-cols-2 g-3'>
+
         {actors.map ((actor) => (
-          <li key={actor.id}>{actor.name}</li>
+          <div key={actor.id} className='col border border-secondary rounded p-0'>
+            <div className='actor-card d-flex'>
+            <img src={actor.image} alt=""/>
+            <div className='actor-card-info text-start p-2'>
+              <h3 className='text-center mb-3'>{actor.name}</h3>
+              <p className='m-0'><strong>Year of birth:</strong> {actor.birth_year}</p>
+              <p className='m-0'><strong>Nationality:</strong> {actor.nationality}</p>
+              <p className='m-0'>Awards: {actor.awards}</p>
+              <p className='m-0'>{actor.biography}</p>
+            </div>
+          </div>
+            </div>
         ))}
-      </ul>
+        </div>
     </div>
   )
 
