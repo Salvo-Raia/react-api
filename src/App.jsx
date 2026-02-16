@@ -31,15 +31,15 @@ export default function App() {
 
         {allActors.map ((actor, index) => (
           <div key={index} className='col border border-secondary rounded p-0'>
-            <div className='actor-card d-flex'>
+            <div className='actor-card d-flex bg-dark text-light'>
             <img src={actor.image} alt={actor.name} title={actor.name} onError={(e) => {
                  e.target.src = "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/No-Image-Placeholder.svg/330px-No-Image-Placeholder.svg.png?20200912122019"}}/>
             <div className='actor-card-info text-start p-2'>
               <h2 className='h3 mb-3'>{actor.name}</h2>
-              <p className='m-0'><strong>Year of birth:</strong> {actor.birth_year}</p>
-              <p className='m-0'><strong>Nationality:</strong> {actor.nationality}</p>
-              <p className='m-0'><strong>Awards:</strong> {Array.isArray(actor.awards) ? actor.awards.join(", ") : actor.awards}</p>
-              <p className='m-0'><strong>Famous Appearances: </strong> <i>{(actor.known_for)? actor.known_for.join(", ") : actor.most_famous_movies.join(", ")}</i></p>
+              <p className='m-0'><strong>📅 Year of birth:</strong> {actor.birth_year}</p>
+              <p className='m-0'><strong>🌍 Nationality:</strong> {actor.nationality}</p>
+              <p className='m-0'><strong>🏆 Awards:</strong> {Array.isArray(actor.awards) ? actor.awards.join(", ") : actor.awards}</p>
+              <p className='m-0'><strong>🎬 Famous Appearances: </strong> <i>{(actor.known_for)? actor.known_for.join(", ") : actor.most_famous_movies.join(", ")}</i></p>
               <p className='mt-3'>{actor.biography}</p>
             </div>
           </div>
