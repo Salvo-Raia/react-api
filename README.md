@@ -1,49 +1,73 @@
-#e Esercizio: Cast Fetching
-Nome repo: `react-api`
+![Boolean Tech Academy](https://img.shields.io/badge/Boolean_Tech_Academy-001632?style=for-the-badge)
 
-## Consegna
+# 🎓 Exercise 37/50 - Actors & Actresses
 
-E’ arrivato il momento di mettere insieme i concetti appresi creiamo una piccola app che ci mostri un elenco di attori o attrici.
+## 📌 Project Overview
 
-**Usate uno di questi due endpoint, a piacimento:**
+| Property | Details |
+|:--|:--|
+| Repository | `react-api` |
+| Category | Boolean Tech Academy |
+| Type | Exercise |
+| Exercise | 37/50 |
 
-* Lista di Attrici: https://lanciweb.github.io/demo/api/actresses/
+## 🎯 Assignment
 
-* Lista di Attori: https://lanciweb.github.io/demo/api/actors/
+Build a small React application that retrieves and displays a list of actors or actresses using the provided APIs.
 
-### MILESTONE 1
+Choose one of the following endpoints:
 
-Al caricamento dell'applicazione, recuperiamo la lista degli attori e delle attrici dalle API e stampiamoli in console.
+- **Actresses:** https://lanciweb.github.io/demo/api/actresses/
+- **Actors:** https://lanciweb.github.io/demo/api/actors/
 
-### MILESTONE 2
+### Milestone 1 - Fetch Data
 
-Prepariamo una card per ciascun attore/attrice, mostrandone le seguenti informazioni:
+When the application loads, fetch the list of actors or actresses from the selected API and print the retrieved data to the console.
 
-* nome
-* anno nascita
-* nazionalità
-* biografia
-* immagine
-* riconoscimenti
+### Milestone 2 - Prepare the Cards
 
-### MILESTONE 3
+Prepare a card for each actor or actress, including the following information:
 
-Mostriamo in pagina una card per ciascun attore, con grafica a piacimento!
+- Name
+- Year of birth
+- Nationality
+- Biography
+- Image
+- Awards and recognitions
 
-**BONUS 1 ☺️**
+### Milestone 3 - Display the Cards
 
-Stampare sia una lista delle attrici che degli attori, separatamente.
+Render a card for each actor or actress on the page, using a design of your choice.
 
-**BONUS 2 😎**
+### Bonus 1 - Separate Lists
 
-Stampare un’unica lista che contiene attori e attrici insieme!
+Display both the actresses and actors in two separate lists.
 
-**BONUS 3 🤯**
+### Bonus 2 - Combined List
 
-Aggiungere nella card dell’attore/attrice i film più famosi
+Display a single list containing both actors and actresses.
 
-**🪄**
+### Bonus 3 - Famous Movies
 
-Se questa task è troppo difficile, prova ad aiutarti con l’AI!
+Add the actor's or actress's most famous movies to their respective cards.
 
-Cerca però sempre di comprendere quello che ti viene suggerito 😉
+> 💡 **AI Assistance**
+>
+> If this task feels too challenging, try using AI for guidance. Always make sure you understand the suggestions and the code it provides.
+
+## 🛠️ Technologies
+![CSS](https://img.shields.io/badge/CSS-1572B6?style=flat-square&logo=css&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black) ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
+
+## 💡 What I Learned
+
+- Fetching data from external APIs.
+- Working with asynchronous JavaScript and API responses.
+- Managing application data in React.
+- Rendering lists of objects dynamically.
+- Building reusable React components.
+- Displaying structured data and images in cards.
+- Combining and organizing data from multiple sources.
+
+## ©️ Credits
+
+Exercise assigned by **Boolean Tech Academy** as part of the Web Development course - Class 152 - Year 2025-2026
