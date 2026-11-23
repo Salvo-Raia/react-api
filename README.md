@@ -8,7 +8,7 @@ Building a React application that fetches actor and actress data from external A
 
 | Repository | Project | Category | Main Focus | Exercise |
 |:--|:--|:--|:--|:--|
-| react-api | Actors & Actresses | Exercise | React & Fetch API | 37/50 |
+| react-api | Actors & Actresses | Exercise | React, Fetch API | 37/50 |
 
 ## Assignment
 
