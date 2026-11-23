@@ -8,7 +8,7 @@ Building a React application that fetches actor and actress data from external A
 
 | Repository | Project | Category | Main Focus | Exercise |
 |:--|:--|:--|:--|:--|
-| react-api | Actors & Actresses | Exercise | React fetch API & Asynchronous data | 37/50 |
+| react-api | Actors & Actresses | Exercise | React, fetch API & Asynchronous data | 37/50 |
 
 ## Assignment
 
@@ -24,13 +24,13 @@ Choose one of the following endpoints:
 
 `https://lanciweb.github.io/demo/api/actors/`
 
-#### Milestone 1: Fetch Data
+#### Milestone 1: Fetch data
 
 When the application loads, fetch the list of actors or actresses from the selected API and print the retrieved data to the console.
 
-#### Milestone 2: Prepare the Cards
+#### Milestone 2: Prepare the cards
 
-Prepare a card for each actor or actress, including the following information:
+Prepare a card for each actor or actress, including the following information.
 
 - Name
 - Year of birth
@@ -39,11 +39,13 @@ Prepare a card for each actor or actress, including the following information:
 - Image
 - Awards and recognitions
 
-#### Milestone 3: Display the Cards
+#### Milestone 3: Display the cards
 
 Render a card for each actor or actress on the page, using a design of your choice.
 
 #### Bonus challenge
+
+Try to implement the following additional features.
 
 - Display both the actresses and actors in two separate lists.
 
@@ -56,7 +58,11 @@ Render a card for each actor or actress on the page, using a design of your choi
 > If this task feels too challenging, try using AI for guidance. Always make sure you understand the suggestions and the code it provides.
 
 ## Technologies
-![JSX](https://img.shields.io/badge/JSX-6A1B9A?style=flat-square&logo=react&logoColor=F7DF1E&labelColor=6A1B9A&color=6A1B9A) ![CSS](https://img.shields.io/badge/CSS-1572B6?style=flat-square&logo=css&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black) ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
+![JSX](https://img.shields.io/badge/JSX-6A1B9A?style=flat-square&logo=react&logoColor=F7DF1E&labelColor=6A1B9A&color=6A1B9A) 
+![CSS](https://img.shields.io/badge/CSS-1572B6?style=flat-square&logo=css&logoColor=white) 
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) 
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black) 
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
 
 ## What I learned
 
