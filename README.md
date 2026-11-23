@@ -14,7 +14,7 @@ Building a React application that fetches actor and actress data from external A
 
 Build a small React application that retrieves and displays a list of actors or actresses using the provided APIs.
 
-Choose one of the following endpoints:
+Choose one of the following endpoints.
 
 **Actresses**
 
@@ -48,9 +48,7 @@ Render a card for each actor or actress on the page, using a design of your choi
 Try to implement the following additional features.
 
 - Display both the actresses and actors in two separate lists.
-
 - Display a single list containing both actors and actresses.
-
 - Add the actor's or actress's most famous movies to their respective cards.
 
 > **AI Assistance**
