@@ -20,7 +20,7 @@ Choose one of the following endpoints.
 
 `https://lanciweb.github.io/demo/api/actresses/`
 
-**Actors:** 
+**Actors** 
 
 `https://lanciweb.github.io/demo/api/actors/`
 
